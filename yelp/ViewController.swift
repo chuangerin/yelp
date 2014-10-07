@@ -32,7 +32,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
-        tableView.estimatedRowHeight = 95
+        tableView.estimatedRowHeight = 100
+        //tableView.rowHeight = UITableViewAutomaticDimension
         
         // Do any additional setup after loading the view, typically from a nib.
         client = YelpClient(consumerKey: yelpConsumerKey, consumerSecret: yelpConsumerSecret, accessToken: yelpToken, accessSecret: yelpTokenSecret)
@@ -132,6 +133,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         println(dealFilter)
         println(deliveryFilter)
         self.popFilter = dealFilter ? "1" : "0"
+        self.onClick(UIBarButtonItem())
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

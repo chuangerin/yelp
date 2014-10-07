@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol FilterDelegate {
+@objc protocol FilterDelegate {
     func filtersUpdated(filterViewController: FilterViewController)
 }
 

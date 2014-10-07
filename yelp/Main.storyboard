@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.9" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BKT-H4-KbN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BKT-H4-KbN">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -42,7 +42,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fbr-Ha-dxn">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fbr-Ha-dxn">
                                                     <rect key="frame" x="246" y="10" width="35" height="12"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="12" id="ew6-Kn-s0L"/>
@@ -76,17 +76,16 @@
                                                         <constraint firstAttribute="height" constant="15" id="odb-eV-RNR"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h09-Td-6dt">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h09-Td-6dt">
                                                     <rect key="frame" x="172" y="28" width="70" height="12"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="12" id="tUU-dG-VxV"/>
-                                                        <constraint firstAttribute="width" constant="70" id="wyh-kN-SmK"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gYd-mD-Myt">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gYd-mD-Myt">
                                                     <rect key="frame" x="246" y="28" width="35" height="12"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="12" id="81k-AR-uhJ"/>
@@ -105,8 +104,6 @@
                                                 <constraint firstAttribute="trailing" secondItem="Fbr-Ha-dxn" secondAttribute="trailing" constant="6" id="GC5-Jx-yLt"/>
                                                 <constraint firstAttribute="trailing" secondItem="teZ-9l-7m5" secondAttribute="trailing" constant="10" id="HhQ-g4-OQL"/>
                                                 <constraint firstItem="ovv-Mr-aPE" firstAttribute="top" secondItem="teZ-9l-7m5" secondAttribute="bottom" id="J3E-BW-Wd5"/>
-                                                <constraint firstItem="Fbr-Ha-dxn" firstAttribute="leading" secondItem="E6m-Au-AgE" secondAttribute="trailing" constant="6" id="JI9-RZ-aBz"/>
-                                                <constraint firstItem="gYd-mD-Myt" firstAttribute="leading" secondItem="h09-Td-6dt" secondAttribute="trailing" constant="4" id="JLC-St-RlT"/>
                                                 <constraint firstItem="E6m-Au-AgE" firstAttribute="leading" secondItem="1Yn-Lr-r0L" secondAttribute="trailing" constant="10" id="SJD-Hi-LwE"/>
                                                 <constraint firstItem="gYd-mD-Myt" firstAttribute="top" secondItem="Fbr-Ha-dxn" secondAttribute="bottom" constant="6" id="TJ4-oP-qxa"/>
                                                 <constraint firstItem="ovv-Mr-aPE" firstAttribute="leading" secondItem="1Yn-Lr-r0L" secondAttribute="trailing" constant="10" id="cX6-Jv-QoR"/>
@@ -292,9 +289,6 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4">
-            <size key="portraitSize" width="320" height="568"/>
-            <size key="landscapeSize" width="568" height="320"/>
-        </simulatedScreenMetrics>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
 </document>
